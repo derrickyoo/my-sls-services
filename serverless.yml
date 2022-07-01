@@ -67,8 +67,12 @@ functions:
     handler: src/hello-world.handler
   todos:
     handler: src/api/todos.handler
+    events:
+      - http: GET /todos
   todo:
     handler: src/api/todo.handler
+    events:
+      - http: GET /todo
   api:
     handler: src/api/api.handler
     events: 
