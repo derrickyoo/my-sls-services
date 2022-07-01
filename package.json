@@ -1,0 +1,24 @@
+{
+  "name": "my-sls-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derrickyoo/my-sls-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derrickyoo/my-sls-services/issues"
+  },
+  "homepage": "https://github.com/derrickyoo/my-sls-services#readme",
+  "dependencies": {
+    "serverless-offline": "^8.8.0"
+  }
+}

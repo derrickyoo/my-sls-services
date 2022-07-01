@@ -57,6 +57,9 @@ provider:
 #    - include-me.js
 #    - include-me-dir/**
 
+plugins:
+  - serverless-offline
+
 functions:
   hello:
     handler: handler.hello
